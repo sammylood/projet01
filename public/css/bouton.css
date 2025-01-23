@@ -1,14 +1,11 @@
 .bouton {
-  display: block;
-  background-color: var(--couleur-secondaire);
+  background-color: var(--couleur-primaire);
   color: var(--couleur-blanc);
   padding: 10px 30px;
   border-radius: 5px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 1em;
-  border:none;
 }
 
 .bouton:hover,

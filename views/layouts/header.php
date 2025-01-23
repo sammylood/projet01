@@ -17,18 +17,18 @@
 <body>
     <nav role="menubar">
         <div class="topnav container" id="myTopnav">
-            <a href="{{ base }}/client/catalogue" class="logo" role="menuitem"><img src="https://www.mitsubishi-motors.ca/content/dam/mitsubishi-motors/images/logos/nav-logo-black.svg" alt="logo"></a>
+            <a href="{{ base }}/client/catalogue" class="logo" role="menuitem"><img src="{{asset}}images/logo-3.png" alt="logo"></a>
             <div class="liens-nav">
                 <a href="{{ base }}/client/catalogue" role="menuitem">Accueil</a>
                 <a href="{{ base }}/client/catalogue" role="menuitem">À propos</a>
                 <div class="dropdown">
-                    <bouton class="dropbtn">Nos véhicules ▾</bouton>
+                    <bouton class="dropbtn">Enchères ▾</bouton>
                     <div class="dropdown-content">
-                        <a href="{{ base }}/client/catalogue" role="menuitem">Vehicules </a>
-                        <a href="{{ base }}/client/catalogue" role="menuitem">Offres spéciales</a>
-                        <a href="{{ base }}/client/catalogue" role="menuitem">Vehicules d'occasion</a>
+                        <a href="{{ base }}/client/catalogue" role="menuitem">Enchères passées </a>
+                        <a href="{{ base }}/client/catalogue" role="menuitem">Enchères en cours</a>
                     </div>
                 </div>
+                <a href="{{ base }}/client/catalogue" role="menuitem">À propos de Lord Stampee III</a>
                 <a href="{{ base }}/client/catalogue" role="menuitem">Contact</a>
             </div>
             <div class="search-user">

@@ -1,5 +1,5 @@
 nav {
-  background-color: var(--couleur-noir);
+  background-color: var(--couleur-blanc);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -10,7 +10,7 @@ nav {
 nav * {
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--couleur-blanc);
+  color: var(--couleur-texte);
 }
 
 nav > div {
@@ -26,7 +26,7 @@ nav > div a {
 }
 
 nav .logo {
-  color: var(--couleur-secondaire);
+  color: var(--couleur-primaire);
   text-decoration: none;
   font-size: 50px;
   font-weight: 600;
@@ -44,12 +44,12 @@ nav .icon {
 }
 nav .topnav a.icon {
   background-color: var(--couleur-blanc);
-  color: var(--couleur-blanc);
+  color: var(--couleur-texte);
 }
 
 nav .topnav a:not(.logo):hover {
   border: none;
-  color: var(--couleur-secondaire);
+  color: var(--couleur-primaire);
   background-color: var(--couleur-gris-pale);
 }
 
@@ -79,7 +79,7 @@ nav .topnav a:not(.logo):hover {
     height: 40px;
     width: 20px;
     color: var(--couleur-blanc);
-    background-color: var(--couleur-secondaire);
+    background-color: var(--couleur-primaire);
     margin: 35px 20px 0px 60px;
     /* margin-block: 20px;
         margin-left: 60px; */
@@ -118,7 +118,7 @@ nav .topnav a:not(.logo):hover {
     color: var(--couleur-blanc);
   }
   nav .topnav a:not(.logo):hover {
-    color: var(--couleur-secondaire);
+    color: var(--couleur-primaire);
   }
 }
 

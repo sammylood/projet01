@@ -2,7 +2,7 @@
     <footer id="pied-principal">
         <div>
             <a href="#" class="logo">
-                <img src="https://www.mitsubishi-motors.ca/content/dam/mitsubishi-motors/images/logos/nav-logo-black.svg" alt="logo"></a>
+                <img src="{{asset}}images/logo-3.png" alt="logo"></a>
             </a>
             <div class="reseaux-sociaux">
                 <a href="#" class="fa fa-instagram"><span>Instagram</span></a>
@@ -11,12 +11,12 @@
             </div>
         </div>
         <div>
-            <a href="#">Voir nos modèles</a>
+            <a href="#">Fonctionnement de la plateforme</a>
             <a href="#">Aide</a>
             <a href="#">Profil</a>
-            <a href="#">Prendre un rendez-vous</a>
-            <a href="#">Heures d'ouverture</a>
-            <a href="#">Trouver une succursale</a>
+            <a href="#">Placer une offre</a>
+            <a href="#">Suivre une enchère</a>
+            <a href="#">Trouver une enchère</a>
         </div>
         <div>
             <div>

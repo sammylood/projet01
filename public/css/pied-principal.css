@@ -4,7 +4,7 @@
   display: flex;
   padding-block: 60px;
   padding-inline: 240px;
-  background-color: var(--couleur-noir);
+  background-color: var(--couleur-gris-primaire);
   justify-content: space-between;
   text-transform: uppercase;
   margin-top: 60px;
@@ -23,7 +23,7 @@
 
 [id="pied-principal"] a {
   padding: 10px 20px;
-  color: var(--couleur-blanc);
+  color: var(--couleur-texte);
 }
 
 [id="pied-principal"] .logo {

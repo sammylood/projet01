@@ -10,14 +10,10 @@
 .carte:hover {
   opacity: 0.8;
 }
-.carte > .image {
-  display: flex;
-  align-items: center;
-  height: 250px;
-}
+
 .carte img {
   width: 100%;
-  height: auto;
+  height: 250px;
   object-fit: cover;
 }
 

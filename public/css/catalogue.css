@@ -6,7 +6,7 @@
 
 .catalogue-container main {
   display: flex;
-  /* max-width: 75%; */
+  max-width: 75%;
 }
 
 section.catalogue {
@@ -19,9 +19,9 @@ section.catalogue {
 
 .catalogue article {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: 23%;
+  flex-basis: calc(33.3333% - 14px);
   flex-direction: column;
   margin-top: 10px;
 }
@@ -45,11 +45,11 @@ section.catalogue {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   .catalogue article {
-    flex-basis: 23%;
+    flex-basis: 31.2%;
   }
-}
+} */
 
 @media screen and (max-width: 870px) {
   .catalogue-container {
@@ -61,12 +61,12 @@ section.catalogue {
   }
 
   .catalogue article {
-    flex-basis: 48%;
+    flex-basis: calc(50% - 10px);
   }
 }
 
 @media screen and (max-width: 460px) {
   .catalogue article {
-    flex-basis: 99%;
+    flex-basis: 100%;
   }
 }
