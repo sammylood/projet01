@@ -5,6 +5,10 @@ use App\Controllers\HomeController;
 use App\Controllers\ClientController;
 use App\Controllers\AchatController;
 
+
+Route::get('/encheres', 'EnchereController@index');
+Route::get('/enchere/catalogue', 'EnchereController@accueil');
+
 Route::get('/home', 'HomeController@index');
 Route::get('/about', 'HomeController@about');
 
